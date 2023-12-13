@@ -1,18 +1,18 @@
-/*Let us discuss about the realtion ships between the classes in Low level design
-1. Association
+/*Let us discuss about the relationship between the classes in Low level design
+1. association
 2. */
 #include<bits/stdc++.h>
 using namespace std;
 
-//Aggregation Relation ship
+//Aggregation Relationship
 /*
 Aggregation is a type of association where one class represents a larger 
-concept, and it is composed of other classes. The key difference between 
+concept, and is composed of other classes. The key difference between 
 aggregation and composition is that aggregation represents a "has-a" relationship 
 that is more loosely coupled, while composition represents a stronger "whole-part" 
 relationship. Here are examples of aggregation in C++:
 */
-//Example : Aggregation
+//Example: Aggregation
 
 class Engine{
     public:
